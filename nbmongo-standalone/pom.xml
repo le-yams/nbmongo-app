@@ -171,12 +171,10 @@
         <dependency>
             <groupId>com.mytdev</groupId>
             <artifactId>nbmongo</artifactId>
-            <version>8.2.1</version>
         </dependency>
         <dependency>
             <groupId>com.mytdev.nbmongo</groupId>
             <artifactId>nbmongo-app-branding</artifactId>
-            <version>${project.version}</version>
         </dependency>
     </dependencies>
     
