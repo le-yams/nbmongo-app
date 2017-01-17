@@ -20,13 +20,16 @@
     
     <modules>
         <module>nbmongo-branding</module>
+        <module>nbmongo-module-install</module>
         <module>nbmongo-standalone</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <netbeans.target.version>RELEASE81</netbeans.target.version>
-        <nbmongo.version>8.2.2.NB81</nbmongo.version>
+        <netbeans.target.version>RELEASE82</netbeans.target.version>
+        <nbmongo.version>8.2.3.NB82</nbmongo.version>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
 
     <dependencyManagement>
@@ -40,6 +43,11 @@
         <dependency>
             <groupId>com.mytdev.nbmongo</groupId>
             <artifactId>nbmongo-app-branding</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.mytdev.nbmongo</groupId>
+            <artifactId>nbmongo-app-module-install</artifactId>
             <version>${project.version}</version>
         </dependency>
         </dependencies>

@@ -10,8 +10,8 @@
     <artifactId>nbmongo-app-branding</artifactId>
     <packaging>nbm</packaging>
 
-    <name>NBMongo App Branding</name>
-    <description>NBMongo standalone app branding.</description>
+<!--    <name>NBMongo App Branding</name>
+    <description>NBMongo standalone app branding.</description>-->
 
     <licenses>
         <license>

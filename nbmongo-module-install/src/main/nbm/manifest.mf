@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: com/mytdev/nbmongo/module/install/Bundle.properties
+OpenIDE-Module-Install: com/mytdev/nbmongo/module/install/ModuleInstaller.class

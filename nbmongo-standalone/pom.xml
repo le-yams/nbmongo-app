@@ -116,7 +116,6 @@
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-openide-nodes</artifactId>
             <version>${netbeans.target.version}</version>
-            <type>jar</type>
         </dependency>
         <dependency>
             <groupId>org.netbeans.api</groupId>
@@ -169,12 +168,40 @@
         </dependency>
         
         <dependency>
+            <groupId>org.netbeans.modules</groupId>
+            <artifactId>org-netbeans-modules-parsing-nb</artifactId>
+            <version>${netbeans.target.version}</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.netbeans.modules</groupId>
+            <artifactId>org-netbeans-modules-projectapi-nb</artifactId>
+            <version>${netbeans.target.version}</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.netbeans.modules</groupId>
+            <artifactId>org-netbeans-modules-html</artifactId>
+            <version>${netbeans.target.version}</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.netbeans.modules</groupId>
+            <artifactId>org-netbeans-libs-freemarker</artifactId>
+            <version>${netbeans.target.version}</version>
+        </dependency>
+        
+        <dependency>
             <groupId>com.mytdev</groupId>
             <artifactId>nbmongo</artifactId>
         </dependency>
         <dependency>
             <groupId>com.mytdev.nbmongo</groupId>
             <artifactId>nbmongo-app-branding</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.mytdev.nbmongo</groupId>
+            <artifactId>nbmongo-app-module-install</artifactId>
         </dependency>
     </dependencies>
     
